@@ -1,5 +1,4 @@
 class Ansispan
-
   @foreground_colors = {
     '30': 'black',
     '31': 'red',

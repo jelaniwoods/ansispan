@@ -7,4 +7,7 @@ Gem::Specification.new do |s|
   s.author         = "Jelani Woods"
   s.email          = "jelani@firstdraft.com"
   s.files          = ["lib/ansispan.rb"]
+  s.homepage       = "http://github.com/jelaniwoods/ansispan".freeze
+  s.licenses       = ["MIT".freeze]
+  s.require_paths  = ["lib".freeze]
 end
