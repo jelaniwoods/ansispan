@@ -6,4 +6,5 @@ Gem::Specification.new do |s|
   s.description    = "Ruby port of the ansispan JS library."
   s.author         = "Jelani Woods"
   s.email          = "jelani@firstdraft.com"
+  s.files          = ["lib/ansispan.rb"]
 end

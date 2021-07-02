@@ -1,5 +1,7 @@
 # ansispan
 
+Ruby port of the [JS ansispan library](https://github.com/mmalecki/ansispan), with some enhancements.
+
 ## Installation
 
 Add to `Gemfile` and `bundle`
