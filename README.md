@@ -23,12 +23,11 @@ Ansispan.convert(ansi_text)
 
 ### Terminal output
 
-![terminal_output.png](files/terminal_output.png)
+<img width="464" alt="terminal_output" src="https://user-images.githubusercontent.com/17581658/124416295-49170400-dd1c-11eb-8956-fa99e134cd12.png">
 
 ### HTML output
 
-![html_output.png](files/html_output.png)
-
+<img width="464" alt="html_output" src="https://user-images.githubusercontent.com/17581658/124416291-474d4080-dd1c-11eb-9dd0-bbd05b7170aa.png">
 
 #### Ansi color reference
 
