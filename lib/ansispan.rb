@@ -6,7 +6,7 @@ class Ansispan
   end
 
   def self.escape_sequence=(custom_escape_sequence)
-    @@escape_sequence = custom_escape_sequence
+    @@escape_sequence = Regexp.escape(custom_escape_sequence)
   end
 
   @foreground_colors = {
