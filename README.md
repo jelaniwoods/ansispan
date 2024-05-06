@@ -19,6 +19,12 @@ Ansispan.convert(ansi_text)
 # => * <span style="color: yellow">8fb4737</span><span style="color: yellow"> (</span><span style="font-weight: bold; color: cyan">HEAD -> </span><span style="font-weight: bold; color: green">master</span><span style="color: yellow">, </span><span style="font-weight: bold; color: red">origin/master</span><span style="color: yellow">, </span><span style="font-weight: bold; color: red">origin/HEAD</span><span style="color: yellow">)</span> rails new
 ```
 
+The default escape character is `\033` but you can pass your own to the convert method.
+
+```rb
+Ansispan.convert(ansi_text, escape_character: "\e")
+```
+
 ---
 
 ### Terminal output
