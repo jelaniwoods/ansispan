@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name           = "ansispan"
-  s.version        = "0.0.1"
+  s.version        = "0.0.2"
   s.date           = "2021-07-01"
   s.summary        = "Convert Terminal ansi colors to <span> tags with inline color styles."
   s.description    = "Ruby port of the ansispan JS library."
