@@ -10,6 +10,13 @@ class Ansispan
     '37': 'white'
   }
 
+  @styles = {
+    '1': 'font-weight: bold;',
+    '3': 'font-style: italic;',
+    '4': 'text-decoration: underline;',
+    '9': 'text-decoration: line-through;',
+  }
+
   def self.convert(str, escape_character: '\033')
     escape_character = Regexp.escape(escape_character)
 
@@ -33,6 +40,13 @@ class Ansispan
     # Bold colors
     @foreground_colors.keys.each do |ansi|
       span = '<span style="font-weight: bold; color: ' + @foreground_colors[ansi] + '">'
+      str = str.gsub(/#{escape_character}\[1;#{ansi}m/, span)
+    end
+
+    # Text styles
+    @styles.keys.each do |ansi|
+      puts "\[1;#{ansi}m/"
+      span = '<span style="font-weight: bold;' + @styles[ansi] + '">'
       str = str.gsub(/#{escape_character}\[1;#{ansi}m/, span)
     end
 
